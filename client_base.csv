@@ -1,0 +1,33 @@
+LEAD,DEAL_TYPE,CONTACT_NAME,CONTACT_INFO,PROPERTY_TYPE,PROPERTY_SIZE,PROPERTY_LOCATION,BUDGET,EMAIL_DRAFT
+Yes,Buy,Berta,NA,House,NA,Houston area,$500k,"Dear Berta,
+
+Thank you for your interest in buying a house in Houston area. I am excited to help you find the perfect property for your needs. I am confident that I can find a property that meets your budget of $500k.
+
+Please provide me with more information about your requirements and I will be happy to provide you with a list of suitable properties.
+
+I look forward to hearing from you soon.
+
+Best regards,
+[Your Name]"
+Yes,Buy,Syndy,NA,House,1 bedroom,Houston area,$500k,"Dear Syndy,
+
+Thank you for your interest in buying a house in Houston area. We have a variety of listings available that may fit your budget of $500k. Please let me know if you would like to discuss further.
+
+Best regards,
+[Your Name]"
+Yes,Buy,Stitch,+12345678,1 bedroom house,NA,"Bronx, NY",$400000,"Dear Stitch,
+
+Thank you for your interest in the 1 bedroom house in Bronx, NY. I am excited to hear that you have a budget of $400000.
+
+I would love to discuss this potential deal further. Please let me know when is a good time for you to talk.
+
+Best,
+[Your Name]"
+Yes,Buy,VZ,NA,House,NA,California,$2B,"Dear VZ,
+
+Thank you for your interest in buying a house in California. We are excited to help you find the perfect property for your needs. Please provide us with more information about your budget, size, and other requirements so that we can start looking for the best options for you.
+
+We look forward to hearing from you soon.
+
+Best regards,
+[Your Name]"
