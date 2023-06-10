@@ -1,0 +1,7 @@
+/pids/*
+/logs/*
+/tokens/*
+
+!/pids/.gitkeep
+!/logs/.gitkeep
+!/tokens/.gitkeep

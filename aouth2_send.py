@@ -9,7 +9,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-import openai_API, module_out_csv
+import openai_API, module_out_csv, module_out_crm
 
 # If modifying these scopes, delete the file token.json.
 SCOPESOUT = ['https://www.googleapis.com/auth/gmail.send']
@@ -26,7 +26,10 @@ def send_email(e_to, e_from, e_subject, e_body):
     processed_body = openai_response.get('EMAIL_DRAFT')
 
     # Trigger write to local csv module
-    module_out_csv.write_local_csv("client_base.csv", openai_response) # TODO (Developer) move filename to config
+    module_out_csv.write_local_csv("client_base.csv", openai_response) # TODO (Developer) move filename to config; Errors
+
+    # Trigger write to CRM
+    module_out_crm.crm_create_new_ticket(openai_response) # TODO (Developer) Config; Errors
 
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
